@@ -19,8 +19,9 @@ diff --git a/arch/arm64/boot/dts/broadcom/Makefile b/arch/arm64/boot/dts/broadco
 index 33c8e599c..42e6a9450 100644
 --- a/arch/arm64/boot/dts/broadcom/Makefile
 +++ b/arch/arm64/boot/dts/broadcom/Makefile
-@@ -4,6 +4,7 @@ dtb-$(CONFIG_ARCH_BCM2835) += bcm2837-rpi-3-b.dtb \
+@@ -4,7 +4,8 @@ dtb-$(CONFIG_ARCH_BCM2835) += bcm2837-rpi-3-b.dtb \
  dtb-$(CONFIG_ARCH_BCM2709) += bcm2710-rpi-3-b.dtb
+ dtb-$(CONFIG_ARCH_BCM2835) += bcm2710-rpi-2-b.dtb
  dtb-$(CONFIG_ARCH_BCM2835) += bcm2710-rpi-3-b.dtb
  dtb-$(CONFIG_ARCH_BCM2835) += bcm2711-rpi-4-b.dtb
 +dtb-$(CONFIG_ARCH_BCM2835) += bcm2711-rpi-4-b-xen.dtb
